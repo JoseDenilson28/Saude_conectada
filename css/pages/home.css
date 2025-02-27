@@ -1,0 +1,85 @@
+.bodyLogin{
+    background-color: var(--c-3);
+}
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: var(--c-4);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    color: var(--c-2);
+    margin-bottom: 10px;
+}
+
+.main-content h2 {
+    font-size: 1.5rem;
+    color: var(--c-1);
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.1rem;
+    color: var(--c-2);
+    margin-bottom: 15px;
+}
+
+.doutor {
+    background-color: var(--c-4);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.doutor h2 {
+    font-size: 1.8rem;
+    color: var(--c-1);
+    margin-bottom: 15px;
+}
+
+.consulta {
+    border: 1px solid var(--c-3);
+    background-color: var(--c-4);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.consulta p {
+    font-size: 1.1rem;
+    color: var(--c-2);
+    margin-bottom: 10px;
+}
+
+.consulta button {
+    background-color: var(--c-2);
+    color: var(--c-4);
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.consulta button:hover {
+    background-color: var(--c-p1);
+}
+
+.receitaBtn {
+    background-color: var(--c-p2);
+}
+
+.receitaBtn:hover {
+    background-color: var(--c-p3);
+}
+
+.concluidoBtn {
+    background-color: var(--c-3);
+}
+
+.concluidoBtn:hover {
+    background-color: var(--c-4);
+}

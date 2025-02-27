@@ -1,0 +1,60 @@
+.servicos {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.servicos h1 {
+  color: var(--c-4);
+  margin-bottom: 30px;
+}
+
+.servicos-list {
+  display: flex;
+  gap: 20px;
+}
+
+.servico {
+  flex: 1;
+  display: grid;
+  background-color: var(--c-1);
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.192);
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+.servico:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.servico h2 {
+  color: var(--c-4);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.39);
+  border: 3px solid var(--c-4);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+.servico p {
+  font: 500 1.3rem/1.3 "arial";
+  color: var(--c-3);
+  margin-bottom: 10px;
+}
+.servico span {
+  font: 500 1.3rem/1.3 "arial";
+  color: var(--c-1);
+  background-color: var(--c-4);
+  padding: 5px;
+  border-radius: 30px;
+  text-align: center;
+}

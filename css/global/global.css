@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: inherit;
+  padding: 10px 15px;
+}
+textarea {
+  width: inherit;
+  padding: 10px 15px;
+}
+
+img {
+  width: 100%;
+  height: initial;
+}
+
+.h1 span {
+  font-size: 3.3rem;
+  position: relative;
+}
+.h1 span::after {
+  content: "";
+  width: 30%;
+  height: 10px;
+  display: block;
+  background-color: var(--c-2);
+  border-radius: 30px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.178);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.botao {
+  background-color: var(--c-3);
+  padding: 10px;
+  border-radius: 3px;
+  color: var(--c-1);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.178);
+  font: 500 1.2rem/1 "arial";
+  transition: 0.4s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: var(--c-2);
+  color: var(--c-f);
+}
+
+.botaoS {
+  border: 2px solid var(--c-3);
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 3px;
+  color: var(--c-2);
+  text-transform: uppercase;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.178);
+  font: 500 1.2rem/1 "arial";
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.botaoS:hover {
+  border-color: var(--c-2);
+  color: var(--c-f);
+}

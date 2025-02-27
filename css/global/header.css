@@ -1,0 +1,82 @@
+.header {
+  background-color: var(--c-1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logomarca {
+  display: grid;
+  border: 2px solid var(--c-2);
+  border-radius: 3px;
+  padding: 5px;
+  font: 600 1.2rem/1 "arial";
+  color: var(--c-f);
+  text-align: center;
+  color: var(--c-2);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.logomarca span {
+  font: 600 2rem/1 "arial";
+  color: var(--c-4);
+}
+
+.logomarca:hover {
+  border: 2px solid var(--c-4);
+  color: var(--c-4);
+}
+.logomarca:hover span {
+  color: var(--c-2);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--c-4);
+}
+
+.menu-list a {
+  padding: 10px;
+  transition: 0.3s;
+  font: 500 1.2rem/1 "arial";
+}
+
+.menu-list a:hover {
+  background-color: var(--c-2);
+  color: var(--c-f);
+  border-radius: 3px;
+}
+
+.loginclicar a {
+  transition: 0.3s;
+  background-color: var(--c-3);
+  font: 500 1.2rem/1 "arial";
+  color: var(--c-1);
+  border-radius: 3px;
+  padding: 10px;
+}
+.loginclicar a:hover {
+  background-color: var(--c-2);
+  color: var(--c-f);
+}
+
+button {
+  border: none;
+}
+
+footer {
+  background-color: var(--c-0);
+  padding: 20px;
+  text-align: center;
+  color: var(--c-2);
+  margin-top: 60px;
+}

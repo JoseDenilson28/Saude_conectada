@@ -1,0 +1,74 @@
+.bodyLogin {
+  background-color: var(--c-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login {
+  padding: 20px;
+  background-color: var(--c-1);
+  display: grid;
+  box-shadow: 0 5px 10px var(--c-0);
+  border-radius: 3px;
+  gap: 20px;
+}
+
+.login h1 {
+  color: var(--c-4);
+  text-transform: capitalize;
+}
+
+.login a {
+  text-align: center;
+  color: var(--c-3) !important;
+  background-color: transparent !important;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+}
+.form div {
+  display: grid;
+}
+
+.form input {
+  border: none;
+  border-bottom: 2px solid var(--c-2);
+  background-color: transparent;
+  color: var(--c-2);
+  outline: none;
+}
+.form select {
+  padding: 10px;
+  color: var(--c-f);
+  background-color: var(--c-2);
+  border: none;
+}
+.form label {
+  color: var(--c-3);
+}
+
+.voltar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: var(--c-2);
+  color: var(--c-1);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.4s;
+  box-shadow: 0 3px 5px var(--c-4);
+}
+
+.voltar:hover {
+  background-color: var(--c-4);
+  box-shadow: 0 3px 5px var(--c-0);
+  color: var(--c-f);
+}

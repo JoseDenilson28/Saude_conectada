@@ -1,0 +1,22 @@
+.inicio {
+  display: grid;
+  background-color: var(--c-4);
+  grid-template-columns: 1fr 2fr;
+  box-shadow: inset 0px -50px 0 #fff;
+  padding: 20px;
+}
+
+.inicio-text {
+  text-align: right;
+  padding: 60px;
+}
+
+.inicio-text h1 {
+  color: var(--c-1);
+  margin-bottom: 20px;
+}
+.inicio-text p {
+  font: 500 1.2rem/1.3 "arial";
+  color: var(--c-2);
+  margin-bottom: 20px;
+}

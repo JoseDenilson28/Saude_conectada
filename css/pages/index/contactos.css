@@ -1,0 +1,71 @@
+.contactos-bg {
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 10px;
+  margin-top: 60px;
+}
+.contactos-bg .h1 {
+  color: var(--c-4);
+}
+.contactos {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-top: 20px;
+}
+
+.contacto {
+  background-color: var(--c-2);
+  padding: 10px;
+}
+.contacto ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contacto ul li {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+.contacto li h2 {
+  color: var(--c-4);
+  font-size: 1.5rem;
+}
+.contacto li a {
+  color: var(--c-f);
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.contacto li p {
+  color: var(--c-f);
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.mensagem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 10px;
+  background-color: var(--c-4);
+  padding: 10px;
+}
+
+.mensagem input {
+  border: 3px solid var(--c-3);
+  color: var(--c-2);
+  font-size: 1.2rem;
+  border-radius: 3px;
+  background-color: transparent;
+}
+.mensagem textarea {
+  grid-column: 1/-1;
+  color: var(--c-2);
+  font-size: 1.2rem;
+  border: 3px solid var(--c-3);
+  border-radius: 3px;
+  background-color: transparent;
+}
+.mensagem button {
+  grid-column: 1/-1;
+}

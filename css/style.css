@@ -1,0 +1,15 @@
+@import url("./global/global.css");
+@import url("./global/header.css");
+
+@import url("./pages/agenda.css");
+@import url("./pages/cadastro.css");
+@import url("./pages/home.css");
+
+@import url("./utilidades/cores.css");
+
+@import url("./pages/index/inicio.css");
+@import url("./pages/index/servicos.css");
+@import url("./pages/index/contactos.css");
+
+@import url("./pages/dash/dash.css");
+@import url("./pages/dash/tabelas.css");

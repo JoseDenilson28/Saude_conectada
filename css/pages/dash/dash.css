@@ -1,0 +1,49 @@
+.h1-admin {
+  display: grid;
+  font-size: 1.5rem;
+  color: var(--c-3);
+}
+.h1-admin p {
+  font-size: 0.9rem;
+  color: var(--c-4);
+}
+
+.DashboardMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-4);
+  height: 100vh;
+}
+.Dashboard-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Dashboard-menu a {
+  padding: 20px;
+  transform: scale(0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: var(--c-3);
+  text-transform: uppercase;
+  word-wrap: break-word;
+  color: var(--c-1);
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.Dashboard-menu a:hover {
+  transform: scale(1);
+  box-shadow: 0 5px 8px var(--c-0);
+}
